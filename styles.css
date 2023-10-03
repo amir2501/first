@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #1b262c;
+}
+
+.col-12 {
+  background-color: #0f4c75;
+}
+.byhand {
+  font-family: "Parisienne", cursive;
+  font-size: 100px;
+  padding-top: 100px;
+}
+.secondH {
+  font-family: "Josefin Slab", serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.topright {
+  position: absolute;
+  left: 1500px;
+  top: 100px;
+}
+.leftCloud {
+  position: absolute;
+  left: 150px;
+}
+.mountain {
+  width: 600px;
+  margin-bottom: 0px;
+  padding-top: 200px;
+}
+.textcolor {
+  color: #bbe1fa;
+}
+.H2 {
+  color: aqua;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+hr {
+  border: dotted #ffffff 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.skillbox {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.H3 {
+  color: rgb(15, 194, 194);
+  margin: 40px;
+}
+.btn {
+  margin: 50px;
+  background-color: #bbe1fa;
+  border: none;
+}
+
+footer {
+  background-color: #bbe1fa;
+}
+@media (max-width: 789px) {
+  .mountain {
+    width: 60vw;
+  }
+  .topright {
+    position: relative;
+    left: 205px;
+    top: 10px;
+    width: 10px;
+  }
+  .leftCloud {
+    position: relative;
+    left: 15px;
+    width: 10px;
+  }
+  .jack {
+    width: 300px;
+  }
+}
